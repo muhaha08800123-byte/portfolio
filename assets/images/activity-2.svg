@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="act2Grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1A237E"/>
+      <stop offset="50%" stop-color="#0B0F19"/>
+      <stop offset="100%" stop-color="#00B8D4"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#act2Grad)"/>
+
+  <!-- Workshop / Code & Digital Art Brainstorming -->
+  <rect x="220" y="150" width="360" height="220" rx="14" fill="rgba(17, 24, 39, 0.85)" stroke="#00B8D4" stroke-width="2.5"/>
+  <rect x="220" y="150" width="360" height="35" rx="14" fill="#2962FF"/>
+  <circle cx="245" cy="167" r="5" fill="#FF5252"/>
+  <circle cx="265" cy="167" r="5" fill="#FFD740"/>
+  <circle cx="285" cy="167" r="5" fill="#69F0AE"/>
+
+  <!-- Code / Art vectors inside monitor -->
+  <text x="250" y="220" fill="#E0F7FA" font-family="monospace" font-size="14">&lt;creative-technology&gt;</text>
+  <text x="270" y="250" fill="#00B8D4" font-family="monospace" font-size="14">render(new_media_project);</text>
+  <text x="270" y="280" fill="#818CF8" font-family="monospace" font-size="14">status: 200 SUCCESS</text>
+  <text x="250" y="310" fill="#E0F7FA" font-family="monospace" font-size="14">&lt;/creative-technology&gt;</text>
+
+  <!-- Laptop base -->
+  <polygon points="180,390 620,390 600,370 200,370" fill="#303F9F"/>
+
+  <rect x="40" y="40" width="720" height="420" rx="16" fill="none" stroke="rgba(0, 184, 212, 0.25)" stroke-width="2"/>
+  <text x="70" y="85" fill="#E0F7FA" font-family="'Plus Jakarta Sans', sans-serif" font-size="20" font-weight="800" letter-spacing="2">DIGITAL MEDIA WORKSHOP // อบรมเชิงปฏิบัติการสื่อดิจิทัล</text>
+  <text x="70" y="115" fill="#00B8D4" font-family="'Plus Jakarta Sans', sans-serif" font-size="14">การประยุกต์ใช้เทคโนโลยีสร้างสรรค์และการออกแบบสื่ออินเตอร์แอคทีฟ</text>
+</svg>
+

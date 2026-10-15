@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="act3Grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="50%" stop-color="#1E3A8A"/>
+      <stop offset="100%" stop-color="#00B8D4"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#act3Grad)"/>
+
+  <!-- Camp / Teamwork Connectivity Network -->
+  <g stroke="#00B8D4" stroke-width="2" opacity="0.6">
+    <line x1="250" y1="200" x2="400" y2="150"/>
+    <line x1="400" y1="150" x2="550" y2="200"/>
+    <line x1="250" y1="200" x2="300" y2="330"/>
+    <line x1="550" y1="200" x2="500" y2="330"/>
+    <line x1="300" y1="330" x2="500" y2="330"/>
+    <line x1="400" y1="150" x2="400" y2="280"/>
+  </g>
+
+  <!-- Nodes with Avatars -->
+  <circle cx="400" cy="150" r="28" fill="#2962FF" stroke="#E0F7FA" stroke-width="3"/>
+  <circle cx="250" cy="200" r="22" fill="#00B8D4" stroke="#E0F7FA" stroke-width="2"/>
+  <circle cx="550" cy="200" r="22" fill="#00B8D4" stroke="#E0F7FA" stroke-width="2"/>
+  <circle cx="300" cy="330" r="24" fill="#303F9F" stroke="#E0F7FA" stroke-width="2"/>
+  <circle cx="500" cy="330" r="24" fill="#303F9F" stroke="#E0F7FA" stroke-width="2"/>
+  <circle cx="400" cy="280" r="32" fill="#E0F7FA" stroke="#00B8D4" stroke-width="4" filter="drop-shadow(0 0 15px #00B8D4)"/>
+
+  <rect x="40" y="40" width="720" height="420" rx="16" fill="none" stroke="rgba(0, 184, 212, 0.25)" stroke-width="2"/>
+  <text x="70" y="85" fill="#E0F7FA" font-family="'Plus Jakarta Sans', sans-serif" font-size="20" font-weight="800" letter-spacing="2">NEW MEDIA CAMP // ค่ายสานสัมพันธ์สื่อนฤมิต</text>
+  <text x="70" y="115" fill="#00B8D4" font-family="'Plus Jakarta Sans', sans-serif" font-size="14">การร่วมทำโครงงานกลุ่ม ขับเคลื่อนนวัตกรรมและกระบวนการคิดสร้างสรรค์</text>
+</svg>
+

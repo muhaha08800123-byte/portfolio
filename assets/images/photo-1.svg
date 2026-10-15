@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="photoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="50%" stop-color="#1E293B"/>
+      <stop offset="100%" stop-color="#0284C7"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#photoGrad)"/>
+
+  <!-- Camera Aperture & Focus Grid Graphic -->
+  <circle cx="400" cy="250" r="120" fill="none" stroke="#E0F7FA" stroke-width="3" opacity="0.4"/>
+  <circle cx="400" cy="250" r="70" fill="none" stroke="#00B8D4" stroke-width="2" opacity="0.7"/>
+
+  <!-- Shutter Blades -->
+  <polygon points="400,180 435,215 365,215" fill="#2962FF" opacity="0.6"/>
+  <polygon points="470,250 435,285 435,215" fill="#00B8D4" opacity="0.6"/>
+  <polygon points="400,320 365,285 435,285" fill="#2962FF" opacity="0.6"/>
+  <polygon points="330,250 365,215 365,285" fill="#00B8D4" opacity="0.6"/>
+
+  <!-- Camera viewfinder marks -->
+  <path d="M 320 170 L 300 170 L 300 190" fill="none" stroke="#00B8D4" stroke-width="3"/>
+  <path d="M 480 170 L 500 170 L 500 190" fill="none" stroke="#00B8D4" stroke-width="3"/>
+  <path d="M 320 330 L 300 330 L 300 310" fill="none" stroke="#00B8D4" stroke-width="3"/>
+  <path d="M 480 330 L 500 330 L 500 310" fill="none" stroke="#00B8D4" stroke-width="3"/>
+
+  <rect x="40" y="40" width="720" height="420" rx="16" fill="none" stroke="rgba(0, 184, 212, 0.25)" stroke-width="2"/>
+  <text x="70" y="85" fill="#E0F7FA" font-family="'Plus Jakarta Sans', sans-serif" font-size="20" font-weight="800" letter-spacing="2">EVENT PHOTOGRAPHY // ภาพถ่ายกิจกรรมและบุคคล</text>
+  <text x="70" y="115" fill="#00B8D4" font-family="'Plus Jakarta Sans', sans-serif" font-size="14">Light & Shadow Composition / Portrait & Action</text>
+</svg>
+

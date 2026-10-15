@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="act4Grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070A10"/>
+      <stop offset="50%" stop-color="#1E1B4B"/>
+      <stop offset="100%" stop-color="#0284C7"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#act4Grad)"/>
+
+  <!-- VR Headset / Virtual Reality Graphic -->
+  <rect x="260" y="190" width="280" height="110" rx="35" fill="#111827" stroke="#00B8D4" stroke-width="4" filter="drop-shadow(0 0 25px #00B8D4)"/>
+  <rect x="290" y="215" width="95" height="60" rx="15" fill="#2962FF" opacity="0.7"/>
+  <rect x="415" y="215" width="95" height="60" rx="15" fill="#00B8D4" opacity="0.7"/>
+  <path d="M 385 245 Q 400 230 415 245" fill="none" stroke="#E0F7FA" stroke-width="4"/>
+
+  <!-- Straps -->
+  <line x1="260" y1="245" x2="180" y2="245" stroke="#303F9F" stroke-width="12"/>
+  <line x1="540" y1="245" x2="620" y2="245" stroke="#303F9F" stroke-width="12"/>
+
+  <rect x="40" y="40" width="720" height="420" rx="16" fill="none" stroke="rgba(0, 184, 212, 0.25)" stroke-width="2"/>
+  <text x="70" y="85" fill="#E0F7FA" font-family="'Plus Jakarta Sans', sans-serif" font-size="20" font-weight="800" letter-spacing="2">SEMINAR: FUTURE OF CREATIVE MEDIA // สัมมนานวัตกรรมสื่อ</text>
+  <text x="70" y="115" fill="#00B8D4" font-family="'Plus Jakarta Sans', sans-serif" font-size="14">การอัปเดตเทรนด์ Virtual Media, 3D & Digital Immersion</text>
+</svg>
+

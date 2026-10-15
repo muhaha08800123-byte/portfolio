@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="photo2Grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#111827"/>
+      <stop offset="50%" stop-color="#1E1B4B"/>
+      <stop offset="100%" stop-color="#0284C7"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#photo2Grad)"/>
+
+  <!-- Cityscape Silhouette / Creative Framing -->
+  <polygon points="120,440 120,260 180,260 180,440" fill="#2962FF" opacity="0.3"/>
+  <polygon points="190,440 190,200 270,200 270,440" fill="#00B8D4" opacity="0.4"/>
+  <polygon points="280,440 280,280 340,280 340,440" fill="#303F9F" opacity="0.4"/>
+  <polygon points="350,440 350,160 450,160 450,440" fill="#2962FF" opacity="0.5"/>
+  <polygon points="460,440 460,240 530,240 530,440" fill="#00B8D4" opacity="0.4"/>
+  <polygon points="540,440 540,190 620,190 620,440" fill="#303F9F" opacity="0.35"/>
+  <polygon points="630,440 630,270 700,270 700,440" fill="#2962FF" opacity="0.3"/>
+
+  <!-- Golden / Cyber Hour Sun -->
+  <circle cx="500" cy="180" r="60" fill="#E0F7FA" opacity="0.8" filter="drop-shadow(0 0 35px #00B8D4)"/>
+
+  <rect x="40" y="40" width="720" height="420" rx="16" fill="none" stroke="rgba(0, 184, 212, 0.25)" stroke-width="2"/>
+  <text x="70" y="85" fill="#E0F7FA" font-family="'Plus Jakarta Sans', sans-serif" font-size="20" font-weight="800" letter-spacing="2">URBAN & ARCHITECTURE // ภาพถ่ายสถาปัตยกรรม</text>
+  <text x="70" y="115" fill="#00B8D4" font-family="'Plus Jakarta Sans', sans-serif" font-size="14">Perspectives, Leading Lines & Visual Rhythm</text>
+</svg>
+

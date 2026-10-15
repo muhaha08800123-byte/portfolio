@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="cubeGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00B8D4"/>
+      <stop offset="100%" stop-color="#2962FF"/>
+    </linearGradient>
+    <linearGradient id="cubeGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2962FF"/>
+      <stop offset="100%" stop-color="#303F9F"/>
+    </linearGradient>
+    <linearGradient id="cubeGrad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E0F7FA"/>
+      <stop offset="100%" stop-color="#00B8D4"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="#0B0F19"/>
+
+  <!-- 3D Wireframe Grid Floor -->
+  <g opacity="0.35" stroke="#00B8D4" stroke-width="1.5">
+    <line x1="100" y1="460" x2="400" y2="280"/>
+    <line x1="250" y1="460" x2="400" y2="280"/>
+    <line x1="400" y1="460" x2="400" y2="280"/>
+    <line x1="550" y1="460" x2="400" y2="280"/>
+    <line x1="700" y1="460" x2="400" y2="280"/>
+    <ellipse cx="400" cy="400" rx="350" ry="80" fill="none"/>
+  </g>
+
+  <!-- Isometric 3D Cube / Poly Object -->
+  <!-- Top Face -->
+  <polygon points="400,120 520,180 400,240 280,180" fill="url(#cubeGrad3)" stroke="#FFFFFF" stroke-width="2"/>
+  <!-- Left Face -->
+  <polygon points="280,180 400,240 400,370 280,310" fill="url(#cubeGrad1)" stroke="#FFFFFF" stroke-width="2"/>
+  <!-- Right Face -->
+  <polygon points="400,240 520,180 520,310 400,370" fill="url(#cubeGrad2)" stroke="#FFFFFF" stroke-width="2"/>
+
+  <!-- Wireframe lines inside -->
+  <line x1="400" y1="120" x2="400" y2="370" stroke="#E0F7FA" stroke-width="2" stroke-dasharray="5,5" opacity="0.8"/>
+  <circle cx="400" cy="240" r="10" fill="#FFFFFF" filter="drop-shadow(0 0 10px #00B8D4)"/>
+
+  <rect x="40" y="40" width="720" height="420" rx="16" fill="none" stroke="rgba(0, 184, 212, 0.25)" stroke-width="2"/>
+  <text x="70" y="85" fill="#E0F7FA" font-family="'Plus Jakarta Sans', sans-serif" font-size="20" font-weight="800" letter-spacing="2">3D ASSET MODELING // งานโมเดลสามมิติ</text>
+  <text x="70" y="115" fill="#00B8D4" font-family="'Plus Jakarta Sans', sans-serif" font-size="14">Hard Surface & Low-Poly Environment Props</text>
+</svg>
+

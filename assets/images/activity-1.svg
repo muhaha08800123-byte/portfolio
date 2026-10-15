@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="act1Grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#006064"/>
+      <stop offset="50%" stop-color="#0B0F19"/>
+      <stop offset="100%" stop-color="#2962FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#act1Grad)"/>
+
+  <!-- University Media Stage / Event Concept -->
+  <polygon points="400,100 150,440 650,440" fill="none" stroke="#00B8D4" stroke-width="2" opacity="0.3"/>
+  <circle cx="400" cy="220" r="80" fill="none" stroke="#2962FF" stroke-width="4"/>
+  <circle cx="400" cy="220" r="70" fill="#E0F7FA" opacity="0.15"/>
+  <path d="M 370 200 L 440 220 L 370 240 Z" fill="#00B8D4"/>
+
+  <!-- Audience / Stage Lighting -->
+  <line x1="200" y1="50" x2="350" y2="400" stroke="#00B8D4" stroke-width="3" opacity="0.4"/>
+  <line x1="600" y1="50" x2="450" y2="400" stroke="#2962FF" stroke-width="3" opacity="0.4"/>
+
+  <rect x="40" y="40" width="720" height="420" rx="16" fill="none" stroke="rgba(0, 184, 212, 0.25)" stroke-width="2"/>
+  <text x="70" y="85" fill="#E0F7FA" font-family="'Plus Jakarta Sans', sans-serif" font-size="20" font-weight="800" letter-spacing="2">FACULTY MEDIA PRODUCTION // ฝ่ายผลิตสื่อสารสนเทศ</text>
+  <text x="70" y="115" fill="#00B8D4" font-family="'Plus Jakarta Sans', sans-serif" font-size="14">ทีมงานเบื้องหลัง บันทึกภาพและสื่อประชาสัมพันธ์กิจกรรมคณะ</text>
+</svg>
+

@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="th" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | แฟ้มสะสมผลงาน - Sukhalawan Srirattanam</title>
+  <meta name="description" content="รวมผลงานการออกแบบ งานวาด งานกิจกรรมมหาลัย ภาพถ่าย และงานโมเดล 3D ของ Sukhalawan Srirattanam">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+  <!-- ==================== SITE NAVIGATION ==================== -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="index.html" class="brand-logo">
+        <div class="logo-icon">SS</div>
+        <div>
+          <span class="logo-text">SUKHALAWAN</span>
+          <span class="logo-sub">Creative Media</span>
+        </div>
+      </a>
+
+      <nav class="nav-menu" id="navMenu">
+        <a href="index.html" class="nav-link"><i class="fa-solid fa-house"></i> Home</a>
+        <a href="education.html" class="nav-link"><i class="fa-solid fa-graduation-cap"></i> Education</a>
+        <a href="portfolio.html" class="nav-link active"><i class="fa-solid fa-layer-group"></i> Portfolio</a>
+        <a href="activity.html" class="nav-link"><i class="fa-solid fa-trophy"></i> Activity</a>
+        <a href="contact.html" class="nav-link"><i class="fa-solid fa-envelope"></i> Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button id="themeToggleBtn" class="theme-toggle-btn" aria-label="สลับโหมดการแสดงผล" title="สลับโหมดการแสดงผล">
+          <i id="themeIcon" class="fa-solid fa-sun"></i>
+        </button>
+        <button id="hamburgerBtn" class="hamburger-btn" aria-label="เปิดเมนู">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Page Hero Banner -->
+    <section class="page-hero">
+      <div class="container">
+        <span class="badge">CREATIVE WORKS GALLERY</span>
+        <h1 class="page-hero-title">ผลงานสร้างสรรค์</h1>
+        <p class="page-hero-subtitle">รวบรวมชิ้นงานที่คัดสรรในด้านงานวาด กิจกรรมมหาลัย และโมเดล 3D ที่สะท้อนตัวตนและทักษะสื่อนฤมิต</p>
+      </div>
+    </section>
+
+    <!-- Gallery & Filter Section -->
+    <section class="gallery-section">
+      <div class="container">
+
+        <!-- Category Filter Tabs -->
+        <div class="filter-tabs">
+          <button class="filter-btn active" data-filter="all">
+            <i class="fa-solid fa-border-all"></i> ทั้งหมด (All)
+          </button>
+          <button class="filter-btn" data-filter="art">
+            <i class="fa-solid fa-palette"></i> งานวาด (Illustration)
+          </button>
+          <button class="filter-btn" data-filter="activity">
+            <i class="fa-solid fa-users"></i> งานกิจกรรมมหาลัย (Events)
+          </button>
+          <button class="filter-btn" data-filter="model">
+            <i class="fa-solid fa-cube"></i> งานโมเดล (3D Modeling)
+          </button>
+        </div>
+
+        <!-- Projects Cards Grid -->
+        <div class="cards-grid" id="portfolioGrid">
+
+          <!-- 1. งานวาด: ฉาก-ช่วงเช้า -->
+          <article class="project-card" data-category="art">
+            <div class="project-thumb">
+              <img src="assets/images/art-morning.png" alt="ผลงานวาดฉาก - บรรยากาศช่วงเช้า">
+              <div class="project-overlay">
+                <button class="overlay-btn" data-lightbox-trigger title="ดูภาพขยาย">
+                  <i class="fa-solid fa-magnifying-glass-plus"></i>
+                </button>
+              </div>
+            </div>
+            <div class="project-body">
+              <span class="project-category-tag"><i class="fa-solid fa-palette"></i> งานวาด (Illustration)</span>
+              <h3 class="project-title">ผลงานวาดฉาก: บรรยากาศช่วงเช้า</h3>
+              <p class="project-desc">ภาพวาดดิจิทัลเพ้นท์ติ้งทิวทัศน์ธรรมชาติ ถ่ายทอดแสงแดดอบอุ่นยามเช้า หมอกจางๆ และโทนสีธรรมชาติที่สดใสมีชีวิตชีวา</p>
+              <div class="project-meta-footer">
+                <span class="project-date"><i class="fa-regular fa-calendar"></i> Digital Art</span>
+                <span class="badge" style="font-size: 0.72rem;">Morning Concept</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- 2. งานวาด: ฉาก-กลางวัน -->
+          <article class="project-card" data-category="art">
+            <div class="project-thumb">
+              <img src="assets/images/art-day.png" alt="ผลงานวาดฉาก - บรรยากาศกลางวัน">
+              <div class="project-overlay">
+                <button class="overlay-btn" data-lightbox-trigger title="ดูภาพขยาย">
+                  <i class="fa-solid fa-magnifying-glass-plus"></i>
+                </button>
+              </div>
+            </div>
+            <div class="project-body">
+              <span class="project-category-tag"><i class="fa-solid fa-palette"></i> งานวาด (Illustration)</span>
+              <h3 class="project-title">ผลงานวาดฉาก: บรรยากาศกลางวัน</h3>
+              <p class="project-desc">ภาพวาดดิจิทัลเพ้นท์ติ้งสภาพแวดล้อมช่วงเวลากลางวัน การให้แสงเงาที่ชัดเจน ความลึกของทัศนียภาพ และมิติต้นไม้ใบหญ้า</p>
+              <div class="project-meta-footer">
+                <span class="project-date"><i class="fa-regular fa-calendar"></i> Digital Art</span>
+                <span class="badge" style="font-size: 0.72rem;">Daylight Scene</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- 3. งานวาด: ฉาก-ตอนเย็น -->
+          <article class="project-card" data-category="art">
+            <div class="project-thumb">
+              <img src="assets/images/art-evening.png" alt="ผลงานวาดฉาก - บรรยากาศตอนเย็น">
+              <div class="project-overlay">
+                <button class="overlay-btn" data-lightbox-trigger title="ดูภาพขยาย">
+                  <i class="fa-solid fa-magnifying-glass-plus"></i>
+                </button>
+              </div>
+            </div>
+            <div class="project-body">
+              <span class="project-category-tag"><i class="fa-solid fa-palette"></i> งานวาด (Illustration)</span>
+              <h3 class="project-title">ผลงานวาดฉาก: บรรยากาศตอนเย็น</h3>
+              <p class="project-desc">ภาพวาดดิจิทัลเพ้นท์ติ้งช่วงเวลาพระอาทิตย์ตกดิน (Golden Hour / Sunset) ผสมผสานโทนสีส้ม ม่วง และเงาตกกระทบสร้างอารมณ์อบอุ่น</p>
+              <div class="project-meta-footer">
+                <span class="project-date"><i class="fa-regular fa-calendar"></i> Digital Art</span>
+                <span class="badge" style="font-size: 0.72rem;">Sunset Tone</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- 4. งานวาด: ฉาก-กลางคืน -->
+          <article class="project-card" data-category="art">
+            <div class="project-thumb">
+              <img src="assets/images/art-night.png" alt="ผลงานวาดฉาก - บรรยากาศกลางคืน">
+              <div class="project-overlay">
+                <button class="overlay-btn" data-lightbox-trigger title="ดูภาพขยาย">
+                  <i class="fa-solid fa-magnifying-glass-plus"></i>
+                </button>
+              </div>
+            </div>
+            <div class="project-body">
+              <span class="project-category-tag"><i class="fa-solid fa-palette"></i> งานวาด (Illustration)</span>
+              <h3 class="project-title">ผลงานวาดฉาก: บรรยากาศกลางคืน</h3>
+              <p class="project-desc">ภาพวาดดิจิทัลเพ้นท์ติ้งยามค่ำคืน การจัดแสงเรืองแสงของหิ่งห้อยและดวงจันทร์ คอนทราสต์ระหว่างความมืดมิดและประกายแสงอันเงียบสงบ</p>
+              <div class="project-meta-footer">
+                <span class="project-date"><i class="fa-regular fa-calendar"></i> Digital Art</span>
+                <span class="badge" style="font-size: 0.72rem;">Night Ambient</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- 5. งานโมเดล 1 -->
+          <article class="project-card" data-category="model">
+            <div class="project-thumb">
+              <img src="assets/images/model-character.png" alt="งานโมเดล 3D Character">
+              <div class="project-overlay">
+                <button class="overlay-btn" data-lightbox-trigger title="ดูภาพขยาย">
+                  <i class="fa-solid fa-magnifying-glass-plus"></i>
+                </button>
+              </div>
+            </div>
+            <div class="project-body">
+              <span class="project-category-tag"><i class="fa-solid fa-cube"></i> งานโมเดล (3D Model)</span>
+              <h3 class="project-title">3D Character Design & Modeling</h3>
+              <p class="project-desc">การขึ้นรูปโมเดลตัวละครสามมิติ โครงสร้าง Mesh สัดส่วน การกำหนดเส้นสาย และเตรียม Rigging สำหรับแอนิเมชัน</p>
+              <div class="project-meta-footer">
+                <span class="project-date"><i class="fa-regular fa-calendar"></i> 3D Modeling</span>
+                <span class="badge" style="font-size: 0.72rem;">Character 3D</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- 6. งานโมเดล 2 -->
+          <article class="project-card" data-category="model">
+            <div class="project-thumb">
+              <img src="assets/images/model-3d.png" alt="งานโมเดล 3D Object & Scene">
+              <div class="project-overlay">
+                <button class="overlay-btn" data-lightbox-trigger title="ดูภาพขยาย">
+                  <i class="fa-solid fa-magnifying-glass-plus"></i>
+                </button>
+              </div>
+            </div>
+            <div class="project-body">
+              <span class="project-category-tag"><i class="fa-solid fa-cube"></i> งานโมเดล (3D Model)</span>
+              <h3 class="project-title">3D Asset & Scene Modeling</h3>
+              <p class="project-desc">การสร้างและจำลองชิ้นงานโมเดล 3D พื้นผิว Material การจัดแสงและมุมมอง Perspective เพื่องานสื่อนฤมิต</p>
+              <div class="project-meta-footer">
+                <span class="project-date"><i class="fa-regular fa-calendar"></i> 3D Modeling</span>
+                <span class="badge" style="font-size: 0.72rem;">Asset Creation</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- 7. งานกิจกรรมมหาลัย 1 -->
+          <article class="project-card" data-category="activity">
+            <div class="project-thumb">
+              <img src="assets/images/activity-event1.jpg" alt="งานกิจกรรมมหาวิทยาลัยมหาสารคาม 1">
+              <div class="project-overlay">
+                <button class="overlay-btn" data-lightbox-trigger title="ดูภาพขยาย">
+                  <i class="fa-solid fa-magnifying-glass-plus"></i>
+                </button>
+              </div>
+            </div>
+            <div class="project-body">
+              <span class="project-category-tag"><i class="fa-solid fa-users"></i> งานกิจกรรมมหาลัย</span>
+              <h3 class="project-title">กิจกรรมคณะและมหาวิทยาลัยมหาสารคาม</h3>
+              <p class="project-desc">ภาพการเข้าร่วมกิจกรรมของนิสิต บรรยากาศการปฏิบัติหน้าที่และการร่วมแรงร่วมใจในงานกิจกรรมของมหาวิทยาลัย</p>
+              <div class="project-meta-footer">
+                <span class="project-date"><i class="fa-regular fa-calendar"></i> มหาวิทยาลัยมหาสารคาม</span>
+                <span class="badge" style="font-size: 0.72rem;">MSU Event</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- 8. งานกิจกรรมมหาลัย 2 -->
+          <article class="project-card" data-category="activity">
+            <div class="project-thumb">
+              <img src="assets/images/activity-event2.jpg" alt="งานกิจกรรมมหาวิทยาลัยมหาสารคาม 2">
+              <div class="project-overlay">
+                <button class="overlay-btn" data-lightbox-trigger title="ดูภาพขยาย">
+                  <i class="fa-solid fa-magnifying-glass-plus"></i>
+                </button>
+              </div>
+            </div>
+            <div class="project-body">
+              <span class="project-category-tag"><i class="fa-solid fa-users"></i> งานกิจกรรมมหาลัย</span>
+              <h3 class="project-title">โครงการและกิจกรรมนิสิตสื่อนฤมิต</h3>
+              <p class="project-desc">ภาพกิจกรรมการทำงานร่วมกันเป็นทีม การจัดกิจกรรมนิสิต และการสื่อสารการประชาสัมพันธ์ในงานสำคัญ</p>
+              <div class="project-meta-footer">
+                <span class="project-date"><i class="fa-regular fa-calendar"></i> คณะวิทยาการสารสนเทศ</span>
+                <span class="badge" style="font-size: 0.72rem;">Student Project</span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==================== LIGHTBOX MODAL ==================== -->
+  <div class="lightbox-modal" id="lightboxModal">
+    <div class="lightbox-content">
+      <button class="lightbox-close-btn" id="lightboxClose" aria-label="ปิดภาพขยาย">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <div class="lightbox-image-wrap">
+        <img src="" alt="" id="lightboxImg">
+      </div>
+      <div class="lightbox-details">
+        <h3 class="lightbox-title" id="lightboxTitle"></h3>
+        <p class="lightbox-caption" id="lightboxDesc"></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== SHARED FOOTER ==================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col footer-brand">
+          <div class="brand-logo" style="margin-bottom: 1rem;">
+            <div class="logo-icon">SS</div>
+            <div class="logo-text">SUKHALAWAN</div>
+          </div>
+          <p>
+            Sukhalawan Srirattanam นิสิตสาขาสื่อนฤมิต คณะวิทยาการสารสนเทศ มหาวิทยาลัยมหาสารคาม พร้อมรังสรรค์ไอเดียสู่นวัตกรรมสื่อแห่งอนาคต
+          </p>
+          <div class="profile-socials" style="justify-content: flex-start; border: none; padding-top: 0;">
+            <a href="https://www.facebook.com/suklawan.srirattanam?locale=th_TH" target="_blank" rel="noopener" class="social-circle-btn" title="Facebook">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="https://www.instagram.com/pui_pui_0081/" target="_blank" rel="noopener" class="social-circle-btn" title="Instagram">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="mailto:puicpui1855@gmail.com" class="social-circle-btn" title="Email">
+              <i class="fa-solid fa-envelope"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>เมนูนำทาง</h4>
+          <ul class="footer-links">
+            <li><a href="index.html"><i class="fa-solid fa-chevron-right"></i> Home (หน้าแรก)</a></li>
+            <li><a href="education.html"><i class="fa-solid fa-chevron-right"></i> Education (การศึกษา)</a></li>
+            <li><a href="portfolio.html"><i class="fa-solid fa-chevron-right"></i> Portfolio (ผลงาน)</a></li>
+            <li><a href="activity.html"><i class="fa-solid fa-chevron-right"></i> Activity (กิจกรรม)</a></li>
+            <li><a href="contact.html"><i class="fa-solid fa-chevron-right"></i> Contact (ติดต่อ)</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>หมวดหมู่ผลงาน</h4>
+          <ul class="footer-links">
+            <li><a href="portfolio.html"><i class="fa-solid fa-paintbrush"></i> งานวาดดิจิทัล</a></li>
+            <li><a href="portfolio.html"><i class="fa-solid fa-bullhorn"></i> งานกิจกรรมมหาลัย</a></li>
+            <li><a href="portfolio.html"><i class="fa-solid fa-cube"></i> งานโมเดลสามมิติ</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>ข้อมูลติดต่อ</h4>
+          <div class="footer-contact-item">
+            <i class="fa-solid fa-envelope"></i>
+            <span>puicpui1855@gmail.com</span>
+          </div>
+          <div class="footer-contact-item">
+            <i class="fa-brands fa-facebook"></i>
+            <span>Suklawan Srirattanam</span>
+          </div>
+          <div class="footer-contact-item">
+            <i class="fa-brands fa-instagram"></i>
+            <span>pui_pui_0081</span>
+          </div>
+          <div class="footer-contact-item">
+            <i class="fa-solid fa-location-dot"></i>
+            <span>คณะวิทยาการสารสนเทศ มมส.</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 Sukhalawan Srirattanam. All rights reserved. | Creative Media Portfolio</p>
+        <p style="color: var(--c-cyan);">Crafted with Cool Modern Cyber Aesthetics</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
+
